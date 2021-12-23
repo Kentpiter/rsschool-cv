@@ -1,4 +1,4 @@
-![cat](assets/cat.jpg)  
+![cat](assets/cat2.jpg)  
 # **Ilya Bakhtin** 
 
 ## **Contact informateon**

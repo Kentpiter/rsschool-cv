@@ -1,1 +1,1 @@
-https://Kentpiter.github.io/rsschool-cv/cv
+https://Kentpiter.github.io/rsschool-cv/

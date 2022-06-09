@@ -2,4 +2,61 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url(assets/backgrond.jpg) center center/cover no-repeat;
+}
+
+header {
+    height: 80px;
+}
+
+header .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header .container .header {
+    display: flex;    
+}
+
+header .container .header .contact-block {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+}
+
+header .container .header .contact-block .massangers {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .container .header .contact-block .massangers .menu_item  img {
+    height: 32px;
+    width: 32px;
+}
+
+header .container .header .navi-block {
+    width: 70%;
+    background-color: black;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;        
+}
+
+header .container .header .navi-block .nav {
+    display: flex;
+    justify-content: space-around;    
 }

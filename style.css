@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    height: 56px;
+    height: 56px;    
 }
 
 .container {
@@ -20,7 +20,7 @@ header {
 }
 
 header .container .header {
-    display: flex;    
+    display: flex;        
 }
 
 header .container .header .contact-block {

@@ -16,7 +16,7 @@
 	<header>
 		<div class="container">
 			<div class="header">
-				<div class="contact-block">
+				<div class="contact-block" id="contact">
 					<ul class="massangers">
 			  			<li class="menu_item">
 							<a href="tel:+79062483671"
@@ -55,12 +55,12 @@
 		  	<div class="navi-block">
 				<nav>
 			  		<ul class="nav">
-						<li><a href="#" title="Контакты">Contact</a></li>
-						<li><a href="#" title="Обо мне">About</a></li>
-						<li><a href="#" title="Навыки">Scills</a></li>
-						<li><a href="#" title="Проекты">Projects</a></li>
-						<li><a href="#" title="Образование">Education</a></li>
-						<li><a href="#" title="Языки">Languages</a></li>
+						<li><a href="#contact" title="Контакты">Contact</a></li>
+						<li><a href="#about" title="Обо мне">About</a></li>
+						<li><a href="#skills" title="Навыки">Scills</a></li>
+						<li><a href="#project" title="Проекты">Projects</a></li>
+						<li><a href="#education" title="Образование">Education</a></li>
+						<li><a href="#languages" title="Языки">Languages</a></li>
 			  		</ul>
 				</nav>
 		  	</div>
@@ -74,7 +74,7 @@
 		<div class="container">
 
 			<section class="about_skills">
-				<div class="about">
+				<div class="about" id="about">
 					<div class="photo">
 						<img src="assets/avatar.png" alt="avatar">
 					</div>
@@ -82,7 +82,7 @@
 					<p>Junior Frontend Developer <br>
 					Russia, Saint Petersburg, 34 y.o.</p>
 				</div>
-				<div class="skill">
+				<div class="skill" id="skills">
 					<h2>Skills</h2>
 					<ul class="skills_list">
 						<li class="skills_icon"><img src="assets/icons/html.png" alt="html"></li>
@@ -97,20 +97,16 @@
 			<section class="code_projects_education">
 				<div class="code_education">
 					<h2>Code</h2>
-					<code>
-						<pre>
-			function greet() {
-				return 'hello world!';
-			}
-			greet()</pre>
+					<code> let sayHi = () => alert("Hello!"); <br>
+                    sayHi();
 					</code>
-					<h2>Education</h2>
+					<h2 id="education">Education</h2>
 					<p>2005-2007 College banking business and information systems</p>
-                    <h2>Languages</h2>
+                    <h2 id="languages">Languages</h2>
                     <p>Russian - nativ <br>
                     English - Pre-Intermediate</p>
 				</div>
-				<div class="projects">
+				<div class="projects" id="project">
                     <h2>Projects</h2>
 					<ul>
                         <li><a href="https://kentpiter.github.io/Wordpress/" target="_blank">https://kentpiter.github.io/Wordpress/</a></li>
@@ -128,7 +124,7 @@
                 
                 <div class="logo">
                     <div class="git_logo">
-                        <a href="https://github.com/Kentpiter"><img src="assets/icons/GitHub_Logo.png" alt="github"></a>
+                        <a href="https://github.com/Kentpiter" target="_blank"><img src="assets/icons/GitHub_Logo.png" alt="github"></a>
                     </div>
                     <p>20</p>
                 </div>

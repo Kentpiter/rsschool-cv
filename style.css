@@ -157,3 +157,60 @@ main .container .code_projects_education .projects h2 {
     color: white;
     margin-bottom: 20px;
 }
+
+footer {
+    min-height: 56px;
+}
+
+footer .container .footer {
+    display: flex;
+    min-height: 56px;
+}
+
+footer .container .footer .logo {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .logo .git_logo {
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto 10px;
+    
+}
+
+footer .container .footer .logo img {
+    height: 30px;
+    
+}
+
+footer .container .footer .logo p {
+    color: white;
+    margin: auto 0;
+}
+
+footer .container .footer .rs {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .rs .rs_logo {
+    height: 30px;
+    margin: auto 10px;
+    
+}
+
+footer .container .footer .rs .rs_logo img {
+    height: 30px;
+}
+
+footer .container .footer .rs p {
+    margin: auto 0;
+}

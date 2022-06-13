@@ -2,4 +2,215 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url(assets/backgrond.jpg) center center/cover no-repeat;
+}
+
+header {
+    height: 56px;    
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header .container .header {
+    display: flex;        
+}
+
+header .container .header .contact-block {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+}
+
+header .container .header .contact-block .massangers {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .container .header .contact-block .massangers img {
+    height: 32px;
+    width: 32px;
+}
+
+header .container .header .navi-block {
+    width: 70%;
+    background-color: black;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;        
+}
+
+header .container .header .navi-block .nav {
+    display: flex;
+    justify-content: space-around;    
+}
+
+main .container .about_skills {
+    display: flex;
+    min-height: 300px;
+}
+
+main .container .about_skills .about {
+    padding: 20px;
+    background-color: black;
+    width: 30%;    
+}
+
+main .container .about_skills .about .photo {
+    height: 200px;
+    width: 200px;    
+    margin: 0 auto;
+}
+
+main .container .about_skills .about .photo img {
+    height: inherit;
+    width: inherit;
+    border-radius: 100%;
+}
+
+main .container .about_skills .about h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+main .container .about_skills .about p {
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+main .container .about_skills .skill {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+main .container .about_skills .skill h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+main .container .about_skills .skill ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .container .about_skills .skill ul li img {
+    height: 100px;
+    width: 100px;
+}
+
+main .container .code_projects_education {
+    min-height: 300px;
+    display: flex;
+}
+
+main .container .code_projects_education .code_education {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+
+main .container .code_projects_education .code_education h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    }
+
+main .container .code_projects_education .code_education p {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+main .container .code_projects_education .projects {
+    width: 70%;
+    padding: 20px;
+    background-color: black;
+}
+
+main .container .code_projects_education .projects h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    min-height: 56px;
+}
+
+footer .container .footer {
+    display: flex;
+    min-height: 56px;
+}
+
+footer .container .footer .logo {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .logo .git_logo {
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto 10px;
+    
+}
+
+footer .container .footer .logo img {
+    height: 30px;
+    
+}
+
+footer .container .footer .logo p {
+    color: white;
+    margin: auto 0;
+}
+
+footer .container .footer .rs {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .rs .rs_logo {
+    height: 30px;
+    margin: auto 10px;
+    
+}
+
+footer .container .footer .rs .rs_logo img {
+    height: 30px;
+}
+
+footer .container .footer .rs p {
+    margin: auto 0;
 }

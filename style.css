@@ -11,10 +11,10 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 56px;
 }
 
-header .container {
+.container {
     width: 70%;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@ a {
     color: #ffffff;
 }
 
-header .container .header .contact-block .massangers .menu_item  img {
+header .container .header .contact-block .massangers img {
     height: 32px;
     width: 32px;
 }
@@ -59,4 +59,64 @@ header .container .header .navi-block {
 header .container .header .navi-block .nav {
     display: flex;
     justify-content: space-around;    
+}
+
+main .container .about_skills {
+    display: flex;
+    min-height: 300px;
+}
+
+main .container .about_skills .about {
+    padding: 20px;
+    background-color: black;
+    width: 30%;    
+}
+
+main .container .about_skills .about .photo {
+    height: 200px;
+    width: 200px;    
+    margin: 0 auto;
+}
+
+main .container .about_skills .about .photo img {
+    height: inherit;
+    width: inherit;
+    border-radius: 100%;
+}
+
+main .container .about_skills .about h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+main .container .about_skills .about p {
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+main .container .about_skills .skill {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+main .container .about_skills .skill h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+main .container .about_skills .skill ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .container .about_skills .skill ul li img {
+    height: 100px;
+    width: 100px;
 }

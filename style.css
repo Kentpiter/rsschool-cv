@@ -120,3 +120,40 @@ main .container .about_skills .skill ul li img {
     height: 100px;
     width: 100px;
 }
+
+main .container .code_projects_education {
+    min-height: 300px;
+    display: flex;
+}
+
+main .container .code_projects_education .code_education {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+
+main .container .code_projects_education .code_education h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    }
+
+main .container .code_projects_education .code_education p {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+main .container .code_projects_education .projects {
+    width: 70%;
+    padding: 20px;
+    background-color: black;
+}
+
+main .container .code_projects_education .projects h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
